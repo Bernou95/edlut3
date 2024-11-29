@@ -74,7 +74,7 @@ using namespace std;
  *
  */
 
-#include <xmmintrin.h>
+//#include <xmmintrin.h>
 
 
 int main(int ac, char *av[]) {
