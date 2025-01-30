@@ -377,8 +377,6 @@ void Simulation::RunSimulationSlot(double preempt_time)  noexcept(false){
 				//cerr << "Internal error: Bad spike time. Spike: " << NewEvent->GetTime() << " Current: " << this->CurrentSimulationTime[openMP_index] << endl;
 				//NewEvent->PrintType();
 
-				NewEvent->PrintType();
-
 				SkipEvent = true;
 			} else {
 				this->CurrentSimulationTime[openMP_index] = NewEvent->GetTime(); // only for checking 	
